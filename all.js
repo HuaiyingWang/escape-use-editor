@@ -17,7 +17,8 @@ var quill = new Quill('#description', {
       imageResize: {
         displaySize: true
       },
-  
+      
+      // https://quilljs.com/
       // Sample：https://github.com/NoelOConnell/quill-image-uploader
       imageUploader: {
         upload: (file) => {
