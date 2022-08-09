@@ -1,3 +1,10 @@
+// 客戶說產品描述要加入：
+// - 可插入圖片連結（出現對話框，可貼上圖片連結）
+// - 可做圖片大小縮放
+// - 可插入文字連結
+// - 可改為粗體、斜體
+// - 可更改字級大小
+
 Quill.register("modules/imageUploader", ImageUploader);
 var quill = new Quill('#description', {
     debug: 'info',
